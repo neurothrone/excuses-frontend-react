@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+:root {
+  --primary-color: #7d00ff;
+  --secondary-color: #5000a5;
+  --danger-color: #ff4b2b;
+  --danger-color-light: #ff416c;
+  --background-color: #0b061f;
+}
+
+/********************************/
+/* !: General */
+html, body {
+  background-color: var(--background-color) !important;
+  font-family: "Audiowide", sans-serif !important;
+}
+
+.navbar {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+h2 {
+  color: #fff;
+  text-shadow: 0 0 8px rgba(125, 0, 255, 0.8);
+}
+
+.text-glow {
+  text-shadow: 0 0 5px var(--primary-color);
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 10px rgba(125, 0, 255, 0.8) !important;
+}
+
+.btn-danger {
+  background: linear-gradient(45deg, var(--danger-color), var(--danger-color-light));
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-danger:hover {
+  box-shadow: 0 0 10px rgba(255, 99, 71, 0.8) !important;
+}
+
+.spinner-border,
+.spinner-grow {
+  color: var(--primary-color) !important;
+  filter: drop-shadow(0px 0px 8px rgba(125, 0, 255, 0.8)) !important;
+}
+
+/********************************/
+/* !: All Excuses */
+.table thead {
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.table tbody tr {
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+/********************************/
+/* !: Add Excuse */
+.form-control {
+  background-color: rgba(20, 20, 20, 0.9) !important;
+  color: white !important;
+  border: 1px solid var(--primary-color) !important;
+}
+
+.form-control::placeholder {
+  color: rgba(200, 200, 200, 0.6) !important;
+}
+
+.form-control:focus {
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 0 10px rgba(125, 0, 255, 0.8) !important;
+  outline: none !important;
+}
+
+.form-select {
+  background-color: rgba(20, 20, 20, 0.9) !important;
+  color: white !important;
+  border: 1px solid var(--primary-color) !important;
+}
+
+.form-select:focus {
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 0 10px rgba(125, 0, 255, 0.8) !important;
+  outline: none !important;
+}
