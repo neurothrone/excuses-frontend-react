@@ -16,3 +16,8 @@ VITE_API_BASE_URL=...
 - @reduxjs/toolkit & react-redux (state management)
 - RKT Query, createApi + fetchBaseQuery (data fetching)
 
+
+## Images
+
+- [All Excuses](./assets/all-excuses.png)
+- [Add Excuse](./assets/add-excuse.png)
