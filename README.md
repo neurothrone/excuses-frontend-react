@@ -19,5 +19,10 @@ VITE_API_BASE_URL=...
 
 ## Images
 
+### All Excuses Page
+
 ![All Excuses](./assets/all-excuses.png)
+
+### Add Excuse Page
+
 ![Add Excuse](./assets/add-excuse.png)
