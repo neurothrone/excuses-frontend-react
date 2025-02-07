@@ -28,6 +28,10 @@ h2 {
   text-shadow: 0 0 5px var(--primary-color);
 }
 
+.btn {
+  min-width: 110px;
+}
+
 .btn-primary {
   background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
   border: none !important;
@@ -56,14 +60,19 @@ h2 {
   filter: drop-shadow(0px 0px 8px rgba(125, 0, 255, 0.8)) !important;
 }
 
+.spinner-button {
+  color: #fff !important;
+  filter: none !important;
+}
+
 /********************************/
 /* !: All Excuses */
 .table thead {
-  border-bottom: 1px solid var(--secondary-color);
+  /*border-bottom: 1px solid var(--secondary-color);*/
 }
 
 .table tbody tr {
-  border-bottom: 1px solid var(--secondary-color);
+  /*border-bottom: 1px solid var(--secondary-color);*/
 }
 
 /********************************/

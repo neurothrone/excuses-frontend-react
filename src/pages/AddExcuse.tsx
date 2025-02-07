@@ -66,8 +66,7 @@ const AddExcuse: React.FC = () => {
               size="sm"
               role="status"
               aria-hidden="true"
-              className="me-2"
-              variant="light"
+              className="spinner-button me-2"
             />
           )}
           Add Excuse

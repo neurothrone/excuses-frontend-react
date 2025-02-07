@@ -30,10 +30,10 @@ const AllExcuses: React.FC = () => {
   return (
     <Container className="px-0">
       <h2 className="text-center text-light mb-4">All Excuses</h2>
-      <Table striped bordered hover variant="dark">
+      <Table striped bordered hover variant="dark" className="text-center align-middle">
         <thead>
           <tr>
-            <th>ID</th>
+            {/*<th>ID</th>*/}
             <th>Excuse</th>
             <th>Category</th>
             <th>Actions</th>
@@ -42,7 +42,7 @@ const AllExcuses: React.FC = () => {
         <tbody>
           {excuses?.map((excuse: Excuse) => (
             <tr key={excuse.id}>
-              <td>{excuse.id}</td>
+              {/*<td>{excuse.id}</td>*/}
               <td>{excuse.text}</td>
               <td>{capitalize(excuse.category)}</td>
               <td>
@@ -58,8 +58,7 @@ const AllExcuses: React.FC = () => {
                       size="sm"
                       role="status"
                       aria-hidden="true"
-                      className="me-2"
-                      variant="light"
+                      className="spinner-button me-2"
                     />
                   )}
                   Delete
