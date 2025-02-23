@@ -4,7 +4,7 @@ import {Link} from "react-router";
 
 const Navigation: React.FC = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="shadow-lg">
+    <Navbar bg="dark" variant="dark" expand="sm">
       <Container>
         <Navbar.Brand as={Link} to="/" className="fw-bold text-glow">Excuses API</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav"/>
